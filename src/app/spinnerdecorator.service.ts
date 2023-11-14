@@ -11,10 +11,10 @@ export class SpinnerdecoratorService {
   static spinner(){
     return function(target: any, propertyKey: string, descriptor: PropertyDescriptor){
       const oldFunction = descriptor.value
-      descriptor.value = function(...args:[]){
+      descriptor.value = async function(...args:[]){
           const spinner = this as ISpinner
           spinner.spinner.on();
-          const result  = oldFunction.apply(this,args)
+          const result  = await oldFunction.apply(this,args)
           spinner.spinner.off();
           return result;
       }

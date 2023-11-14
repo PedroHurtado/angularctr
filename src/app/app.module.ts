@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { DayComponent } from './day/day.component';
 import { CalendarComponent } from './calendar/calendar.component';
 import { GetdataComponent } from './getdata/getdata.component';
+import {HttpClientModule} from '@angular/common/http'
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { GetdataComponent } from './getdata/getdata.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
