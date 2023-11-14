@@ -9,7 +9,10 @@ import { GetdataComponent } from './getdata/getdata.component';
 import {HttpClientModule} from '@angular/common/http';
 import { EmisorComponent } from './emisor/emisor.component';
 import { ReceptorComponent } from './receptor/receptor.component';
-import { ContentComponent } from './content/content.component'
+import { ContentComponent } from './content/content.component';
+import { FormComponent } from './form/form.component'
+import {ReactiveFormsModule} from '@angular/forms';
+import { InputComponent } from './input/input.component'
 
 @NgModule({
   declarations: [
@@ -19,12 +22,15 @@ import { ContentComponent } from './content/content.component'
     GetdataComponent,
     EmisorComponent,
     ReceptorComponent,
-    ContentComponent
+    ContentComponent,
+    FormComponent,
+    InputComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

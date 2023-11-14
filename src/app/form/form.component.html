@@ -1,0 +1,9 @@
+<form [formGroup]="profileForm" (ngSubmit)="onSubmit()">
+    
+    <app-input name="name" label="Introduzca el nombre" [group]="profileForm"></app-input>
+   
+    <app-input name="nif" label="Introduzca el nif" [group]="profileForm"></app-input>    
+
+    <button type="submit">Enviar</button>
+    
+</form>
