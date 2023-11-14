@@ -8,7 +8,8 @@ import { CalendarComponent } from './calendar/calendar.component';
 import { GetdataComponent } from './getdata/getdata.component';
 import {HttpClientModule} from '@angular/common/http';
 import { EmisorComponent } from './emisor/emisor.component';
-import { ReceptorComponent } from './receptor/receptor.component'
+import { ReceptorComponent } from './receptor/receptor.component';
+import { ContentComponent } from './content/content.component'
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { ReceptorComponent } from './receptor/receptor.component'
     CalendarComponent,
     GetdataComponent,
     EmisorComponent,
-    ReceptorComponent
+    ReceptorComponent,
+    ContentComponent
   ],
   imports: [
     BrowserModule,
