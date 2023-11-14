@@ -6,14 +6,18 @@ import { AppComponent } from './app.component';
 import { DayComponent } from './day/day.component';
 import { CalendarComponent } from './calendar/calendar.component';
 import { GetdataComponent } from './getdata/getdata.component';
-import {HttpClientModule} from '@angular/common/http'
+import {HttpClientModule} from '@angular/common/http';
+import { EmisorComponent } from './emisor/emisor.component';
+import { ReceptorComponent } from './receptor/receptor.component'
 
 @NgModule({
   declarations: [
     AppComponent,
     DayComponent,
     CalendarComponent,
-    GetdataComponent
+    GetdataComponent,
+    EmisorComponent,
+    ReceptorComponent
   ],
   imports: [
     BrowserModule,
