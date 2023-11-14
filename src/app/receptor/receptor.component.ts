@@ -12,8 +12,10 @@ export class ReceptorComponent {
   data:number = 0
   constructor(private readonly pubsub:PubsubService){
     this.pubsub.observable.subscribe(data=>this.data=data)
-    window.addEventListener("emit", (ev)=>{
+    
+    window.addEventListener("carrito", (ev)=>{
       const custom = ev as CustomEvent
+      custom.stopPropagation();
       console.log(custom.detail)
     })
   }

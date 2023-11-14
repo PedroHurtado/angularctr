@@ -11,10 +11,10 @@ export class EmisorComponent {
   handlerClick(event:Event){
 
     event.stopPropagation();
-    
+
     this.pubsub.emit(10)
 
-    const ev:CustomEvent = new CustomEvent("emit",{
+    const ev:CustomEvent = new CustomEvent("carrito",{
       composed:true,
       cancelable:true,
       bubbles:true,
