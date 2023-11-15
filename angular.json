@@ -118,7 +118,9 @@
             "styles": [
               "projects/users/src/styles.css"
             ],
-            "scripts": []
+            "scripts": [],
+            "serviceWorker": true,
+            "ngswConfigPath": "projects/users/ngsw-config.json"
           },
           "configurations": {
             "production": {
