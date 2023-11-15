@@ -12,7 +12,13 @@ import { ReceptorComponent } from './receptor/receptor.component';
 import { ContentComponent } from './content/content.component';
 import { FormComponent } from './form/form.component'
 import {ReactiveFormsModule} from '@angular/forms';
-import { InputComponent } from './input/input.component'
+import { InputComponent } from './input/input.component';
+import { Pagina1Component } from './pages/pagina1/pagina1.component';
+import { Pagina2Component } from './pages/pagina2/pagina2.component';
+import { Pagina3Component } from './pages/pagina3/pagina3.component';
+import { MenuComponent } from './pages/menu/menu.component';
+import { LayoutComponent } from './pages/layout/layout.component';
+import { NostandaloneComponent } from './pages/nostandalone/nostandalone.component'
 
 @NgModule({
   declarations: [
@@ -24,12 +30,13 @@ import { InputComponent } from './input/input.component'
     ReceptorComponent,
     ContentComponent,
     FormComponent,
-    InputComponent
+    InputComponent,        
+    MenuComponent, LayoutComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule,
+    HttpClientModule,    
     ReactiveFormsModule
   ],
   providers: [],

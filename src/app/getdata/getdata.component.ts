@@ -5,7 +5,7 @@ import { SpinnerdecoratorService } from '../spinnerdecorator.service';
 import { GetgenericdataService } from '../getgenericdata.service';
 import { Customer } from '../customer';
 
-@Component({
+@Component({  
   selector: 'app-getdata',
   templateUrl: './getdata.component.html',
   styleUrls: ['./getdata.component.css'],
