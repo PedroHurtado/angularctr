@@ -1,0 +1,17 @@
+https://developer.mozilla.org/es/docs/Web/API/Worker
+https://developer.mozilla.org/es/docs/Web/API/Service_Worker_API
+https://web.dev/learn/pwa
+https://developer.chrome.com/blog/beyond-spa/
+https://developer.chrome.com/docs/workbox/
+https://developer.mozilla.org/en-US/docs/Web/API/Cache
+
+1. vez que solitas a un servidor debes de descargar e instalar lo minimo
+2. limitaciones no puedo desde un sw ejecutar import dinamico
+    import('')
+
+3. 
+    install
+    activate
+    fetch->datos->
+
+https://whatwebcando.today/

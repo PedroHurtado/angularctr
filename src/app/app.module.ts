@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { NgModule, isDevMode } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -18,7 +18,8 @@ import { Pagina2Component } from './pages/pagina2/pagina2.component';
 import { Pagina3Component } from './pages/pagina3/pagina3.component';
 import { MenuComponent } from './pages/menu/menu.component';
 import { LayoutComponent } from './pages/layout/layout.component';
-import { NostandaloneComponent } from './pages/nostandalone/nostandalone.component'
+import { NostandaloneComponent } from './pages/nostandalone/nostandalone.component';
+import { ServiceWorkerModule } from '@angular/service-worker'
 
 @NgModule({
   declarations: [
@@ -37,7 +38,12 @@ import { NostandaloneComponent } from './pages/nostandalone/nostandalone.compone
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,    
-    ReactiveFormsModule
+    ReactiveFormsModule, ServiceWorkerModule.register('ngsw-worker.js', {
+  enabled: !isDevMode(),
+  // Register the ServiceWorker as soon as the application is stable
+  // or after 30 seconds (whichever comes first).
+  registrationStrategy: 'registerWhenStable:30000'
+})
   ],
   providers: [],
   bootstrap: [AppComponent]
