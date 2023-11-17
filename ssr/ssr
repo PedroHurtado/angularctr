@@ -1,0 +1,28 @@
+ssr->server side rendering
+
+1. Ventajas
+    seo
+    mayor rendimientos
+2. Desventajas
+    escribo
+        que código voy a ejecutar en servidor
+        que ccódigo voy a ejecutar en el cliente
+    hidratacion
+
+        <button (click) = "plus()"></button>
+        <button (click) = "minus()"></button>
+
+        class Component{
+            count=100
+            plus(){
+                count+=1
+            }
+            minus(){
+                count-=1
+            }
+        }
+3. arquitectura
+        .net microservices
+        this.data =  await http.get<customer>("url")
+        node.js->micro.net
+        <html></html>
