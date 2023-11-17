@@ -1,0 +1,24 @@
+acciones
+store
+effect
+
+1. si tengo una multiapp ¿Donde serializo los datos en el hipotetico cambio de ruta?
+
+/pagina1->estado
+/pagina2->estado
+
+/pagina1 y /pagina2 tienen un estado compartido
+
+1. Enviar el estado al servidor
+
+    "pageHide"
+
+    fetch("url",{keepalive})
+
+    https://developer.mozilla.org/en-US/docs/Web/API/Navigator/sendBeacon
+
+    "pageShow"
+
+2. IndexDb->Estado
+
+https://developer.mozilla.org/en-US/docs/Web/API/structuredClone
