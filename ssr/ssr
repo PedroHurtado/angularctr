@@ -26,3 +26,7 @@ ssr->server side rendering
         this.data =  await http.get<customer>("url")
         node.js->micro.net
         <html></html>
+
+https://blog.logrocket.com/server-side-rendering-angular-16/
+https://hackernoon.com/angular-server-side-rendering-state-transfer-for-http-requests-wu263t3h
+https://blog.angular.io/introducing-angular-v17-4d7033312e4b
