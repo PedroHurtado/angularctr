@@ -1,0 +1,10 @@
+https://web.dev/articles/bfcache?utm_source=devtools&hl=es-419
+https://web.dev/articles/http-cache?hl=es-419
+
+html->etag
+    304
+
+main.js
+
+main.hash.js 365dias^24horas*60minuto*60segundos
+main.hash1.js 304->200

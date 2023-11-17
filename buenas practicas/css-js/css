@@ -1,0 +1,19 @@
+1. critical css
+
+    compilacion html
+    css
+
+    arbol de representacion->paint
+
+    <style>
+            css
+    </style>
+
+    link rel=preload css
+    link rel="stylesheeT" priority="low"
+
+    https://web.dev/articles/extract-critical-css?hl=es-419
+
+EFECTO FOUC
+
+    https://en.wikipedia.org/wiki/Flash_of_unstyled_content

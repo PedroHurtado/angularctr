@@ -1,0 +1,24 @@
+1. avif, webp, jpeg
+
+<picture>
+  <source srcset="mdn-logo-wide.avif" media="(min-width: 600px)" />
+  <source srcset="mdn-logo-wide.webp" media="(min-width: 600px)" />
+  <source srcset="mdn-logo-wide.png" media="(min-width: 600px)" />
+  <source srcset="mdn-logo-wide-1.avif"  />
+  <source srcset="mdn-logo-wide-1.webp"  />
+  <source srcset="mdn-logo-wide-1.png"  />
+  <img loading="lazy" src="mdn-logo-narrow.png" alt="MDN"  width="300" height="300"/>
+</picture>
+
+https://github.com/Iarlvarezro/Pizzeria-GNT-Frontend/blob/master/src/components/image/image.js
+https://web.dev/articles/aspect-ratio?hl=es-419
+https://web.dev/articles/browser-level-image-lazy-loading?hl=es-419
+https://web.dev/learn/images
+
+2. todos los iconos en svg
+
+3. todas las imagenes de portada
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/rel/preload
+
+
+

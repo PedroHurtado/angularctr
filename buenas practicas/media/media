@@ -1,0 +1,9 @@
+1. no funciona el loading="lazy"
+2. intersection observer
+    https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API
+3. Se podría utilizar esta api para descargar datos de un apirest cuando entremos en
+el viewport
+
+https://web.dev/articles/fetch-priority?hl=es-419
+https://web.dev/explore/learn-core-web-vitals?hl=es-419
+

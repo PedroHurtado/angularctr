@@ -1,0 +1,9 @@
+1. expresion minima de js
+2. lazy load del resto(code spliting)
+
+    webpack(x)
+    rollup
+    vite
+    etc,etc
+
+    import('') import dinamico
